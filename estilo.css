@@ -18,6 +18,8 @@ html{
     left: 0;
     z-index: 99;
 }
+
+
 .contenedor-header header{
     max-width: 1100px;
     margin: auto;
@@ -77,10 +79,11 @@ html{
     margin-top: 40px;
     border: 10px solid #1CB698;
     display: block;
-    width: 70%;
+    width: 58%;
     margin: auto;
     border-radius: 100%;
 }
+
 .inicio .contenido-banner h1{
     margin-top: 40px;
     font-size: 42px;
@@ -524,6 +527,7 @@ html{
 .portfolio .galeria .proyecto img{
     width: 100%;
     display: block;
+    justify-content: center;
 }
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
